@@ -1,0 +1,48 @@
+.main{
+    height: 100vh;
+}
+/* .body-content{
+    height: ;
+} */
+.sidebar{
+    background: rgb(9, 63, 77);
+    color: white;
+}
+.sidebar a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 10px;
+}
+.sidebar a:hover{
+    background: black;
+}
+.active{
+    background: black;
+    border-right: solid 8px gray;
+}
+.card-data{
+    border: solid 1px;
+    padding: 20px 50px;
+
+    color: white;
+}
+.card-data.book{
+    background-color: teal;
+}
+.card-data.category{
+    background-color: chocolate;
+}
+.card-data.user{
+    background-color: rebeccapurple;
+}
+.card-data i{
+    font-size: 80px;
+
+}
+.card-desc{
+    font-size: 30px;
+}
+.card-count{
+    font-size: 30px;
+}
